@@ -25,6 +25,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# temp folders
+/ezgif-*
+
 # OS
 .DS_Store
 Thumbs.db
