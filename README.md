@@ -5,6 +5,7 @@
 
 [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-bmw--pi--ten.vercel.app-0066B1?style=for-the-badge&logo=vercel&logoColor=white)](https://bmw-pi-ten.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GITHUB-shajith23/bmw-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shajith23/bmw)
+[![Guide & Assets](https://img.shields.io/badge/GOOGLE_DRIVE-Step--by--Step_Guide-34A853?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1XdyjcJI9O_c0tN2349R_F05T2Pa0eq5i?usp=drive_link)
 
 [![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React 18](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
@@ -12,193 +13,417 @@
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.11-0055FF?style=flat-square&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Lenis Scroll](https://img.shields.io/badge/Lenis-Smooth_Scroll-black?style=flat-square)](https://lenis.darkroom.engineering/)
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-Online-success?style=flat-square&logo=vercel&logoColor=white)](https://bmw-pi-ten.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Vercel-Production-success?style=flat-square&logo=vercel&logoColor=white)](https://bmw-pi-ten.vercel.app/)
 
-<br />
+<br>
 
 <p align="center">
-  <b>An ultra-premium, scroll-driven 360° digital experience built for the flagship BMW M4 GT3 EVO customer racing car.</b><br />
-  Engineered with high-FPS HTML5 Canvas image sequences, real-time cockpit telemetry HUDs, dynamic drive modes, and browser-synthesized Web Audio API race engine acoustics.
+<b>An ultra-premium scroll-driven digital experience built for the BMW M4 GT3 EVO customer racing machine.</b><br>
+Powered by HTML5 Canvas image sequences, Framer Motion, Lenis smooth scrolling, Web Audio API, and a motorsport-inspired telemetry interface.
 </p>
 
-[🌐 **Launch Live Demo**](https://bmw-pi-ten.vercel.app/) • [🏎️ **Experience Features**](#-key-features--experience-highlights) • [🎨 **Design System**](#-design-system--color-palette) • [🛠️ **Tech Architecture**](#%EF%B8%8F-technology-stack) • [🚀 **Quick Setup**](#-getting-started)
+### 🔗 Quick Links
+
+🌐 **Live Demo**  
+https://bmw-pi-ten.vercel.app/
+
+💻 **GitHub Repository**  
+https://github.com/shajith23/bmw
+
+📚 **Complete Guide & Assets**  
+https://drive.google.com/drive/folders/1XdyjcJI9O_c0tN2349R_F05T2Pa0eq5i?usp=drive_link
 
 ---
 
 </div>
 
 > [!TIP]
-> **Live Production Deployment**: Experience the 360° interactive GT3 EVO sequence online at **[https://bmw-pi-ten.vercel.app/](https://bmw-pi-ten.vercel.app/)**.
+> **Experience the live production version here:** https://bmw-pi-ten.vercel.app/
 
 ---
 
-## 🌟 Key Features & Experience Highlights
+# 📚 Complete Guide & Assets
 
-### 🔄 1. 600vh Master Scroll Canvas Engine
-- **360° Frame Interpolation**: Smooth frame-by-frame 360-degree rotation driven by a **192-frame render sequence** (1.jpg to 192.jpg) rendered directly to an HTML5 2D Canvas context.
-- **Scroll Physics Syncing**: Responsive scroll depth binding attached to a sticky 600vh scroll container powered by Framer Motion `useScroll` and `useMotionValueEvent`.
+Everything required to recreate this project has been provided inside the Google Drive folder.
 
-### ⚡ 2. Live Motorsport Telemetry & Drive Modes
-Real-time cockpit HUD tracking race parameters across 3 distinct engine & aero profiles:
+## Included
 
-| Drive Mode | HP & Boost | Downforce | Visual Theme | Engine Sound Profile |
-| :--- | :--- | :--- | :--- | :--- |
-| 🔴 **QUALIFYING** | 540 HP (Max Boost) | Aggressive | M Red Accents | High RPM Aggressive Revs |
-| 🔵 **ENDURANCE** | 510 HP (Stint Map) | Balanced | M Alpine Blue | Balanced Fuel & Thermal Tone |
-| 🟡 **WET** | Soft Throttle | Max Mechanical | Rain Overlay | Traction Control Modulated |
+- ✅ Complete Step-by-Step Development Guide
+- ✅ Project Assets
+- ✅ High Resolution Image Sequence
+- ✅ Development Workflow
+- ✅ Project Resources
+- ✅ Setup Guide
+- ✅ Reference Files
+- ✅ Source Materials
 
-### 🔊 3. Web Audio API Sound Engine
-- **Real-Time Sound Synthesis**: Custom browser-based audio engine (`soundEngine`) generating realistic **engine revs**, **turbo spooling**, and **gear shift clicks** without external audio samples.
-- **Interactive Audio Controls**: Mute toggle, RPM pitch bending, and mode transition sound effects.
+## Google Drive
 
-### ⏱️ 4. Interactive Preloader
-- Motorsport tachometer startup sequence featuring an animated **RPM needle sweep**, digital telemetry initialization checks, and a manual engine ignition start button.
+📁 https://drive.google.com/drive/folders/1XdyjcJI9O_c0tN2349R_F05T2Pa0eq5i?usp=drive_link
 
-### 📑 5. Technical Data & Customer Racing Modals
-- **Technical Specs Modal**: Full FIA GT3 EVO engine specs, chassis dimensions, Xtrac 6-speed sequential ratios, and aero package.
-- **Inquire Modal**: Seamless customer racing order & quotation request workflow.
+> Follow the guide before starting development for the smoothest setup experience.
 
 ---
 
-## 🎨 Design System & Color Palette
+# 🌟 Features
 
-Built around **BMW M Motorsport** visual heritage with high-contrast alpine dark/light styling:
+## 🏎 Scroll Driven Experience
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                          BMW M COLOR PALETTE                           │
-├─────────────┬─────────────┬─────────────┬─────────────┬────────────────┤
-│ Alpine White│ M Dark Navy │ M Light Blue│ M Dark Blue │ Motorsport Red │
-│   #FFFFFF   │   #111111   │   #0066B1   │   #002B49   │    #E52521     │
-└─────────────┴─────────────┴─────────────┴─────────────┴────────────────┘
+- 600vh immersive scrolling
+- Smooth phase transitions
+- Sticky Canvas rendering
+- Framer Motion scroll synchronization
+
+---
+
+## 🔄 192 Frame Image Sequence
+
+- HTML5 Canvas renderer
+- 360° vehicle rotation
+- High FPS rendering
+- Lazy image loading
+- Responsive scaling
+
+---
+
+## 📊 Live Telemetry HUD
+
+Real-time racing dashboard featuring
+
+- Speed
+- RPM
+- Boost
+- Tire Temperature
+- Gear
+- Downforce
+- Lap Data
+- Drive Modes
+
+---
+
+## ⚡ Drive Modes
+
+| Mode | Output | Theme |
+|------|---------|--------|
+| 🔴 Qualifying | 540 HP | Motorsport Red |
+| 🔵 Endurance | 510 HP | BMW Blue |
+| 🟡 Wet | Traction Optimized | Yellow |
+
+---
+
+## 🔊 Web Audio API
+
+Features
+
+- Engine idle
+- RPM synthesis
+- Gear shift sounds
+- Turbo spool
+- Audio toggle
+- Dynamic pitch control
+
+---
+
+## 🚀 Interactive Preloader
+
+Features
+
+- Animated tachometer
+- RPM sweep
+- System diagnostics
+- Engine ignition animation
+- Motorsport startup experience
+
+---
+
+## 📑 Technical Information
+
+Interactive Modals
+
+- Complete Specifications
+- BMW Motorsport Data
+- Customer Racing Information
+- Inquiry Form
+
+---
+
+# 🎨 Design System
+
+```
+BMW M Motorsport
+
+White          #FFFFFF
+Dark           #111111
+Blue           #0066B1
+Dark Blue      #002B49
+Red            #E52521
 ```
 
-- ⚪ **Alpine White (`#FFFFFF`)**: Clean canvas backdrop & high-contrast container surfaces.
-- ⬛ **M Dark Navy (`#111111`)**: Deep cockpit typography & telemetry container backgrounds.
-- 🟦 **M Light Blue (`#0066B1`)**: Primary active indicators, progress bars, and Endurance mode styling.
-- 🔷 **M Dark Blue (`#002B49`)**: Secondary brand contrast and subtle borders.
-- 🔴 **Motorsport Red (`#E52521`)**: Qualifying mode highlights, high-RPM tachometer rev lines, and primary call-to-actions.
+Typography
+
+- Inter
+- BMW Motorsport Inspired Layout
+- Large Display Headlines
+- HUD Styling
 
 ---
 
-## 🛠️ Technology Stack
+# 🛠 Technology Stack
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                          FRONTEND ARCHITECTURE                         │
-├───────────────────┬───────────────────┬────────────────────────────────┤
-│ Layer             │ Technology        │ Key Usage                      │
-├───────────────────┼───────────────────┼────────────────────────────────┤
-│ Framework         │ Next.js 14        │ App Router, SSR, Image Opt.    │
-│ Language          │ TypeScript 5.6    │ Strict Type Definitions        │
-│ Styling           │ Tailwind CSS v4   │ Utility Styling & Variables    │
-│ Motion & Anim     │ Framer Motion 11  │ Scroll Progress & Transitions  │
-│ Smooth Scroll     │ Lenis Scroll      │ Inertial Scroll Physics        │
-│ Rendering         │ HTML5 2D Canvas   │ High-FPS 192-Frame Sequence    │
-│ Sound Engine      │ Web Audio API     │ Real-time Synthesized Audio    │
-│ Icons             │ Lucide React      │ Modern Vector UI Icons         │
-│ Hosting           │ Vercel            │ Global Edge CDN & CI/CD        │
-└───────────────────┴───────────────────┴────────────────────────────────┘
+| Layer | Technology |
+|----------|----------------|
+| Framework | Next.js 14 |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Animation | Framer Motion |
+| Smooth Scroll | Lenis |
+| Canvas | HTML5 Canvas |
+| Audio | Web Audio API |
+| Icons | Lucide React |
+| Deployment | Vercel |
+
+---
+
+# 📂 Project Structure
+
+```
+bmw/
+
+public/
+└── images/
+    └── bmw-m4-gt3-evo-sequence/
+        ├── 1.jpg
+        ├── ...
+        └── 192.jpg
+
+src/
+
+app/
+├── globals.css
+├── layout.tsx
+└── page.tsx
+
+components/
+├── BMWExperience.tsx
+├── BMWScrollCanvas.tsx
+├── FeaturesSection.tsx
+├── Footer.tsx
+├── InquireModal.tsx
+├── LenisProvider.tsx
+├── Navbar.tsx
+├── Preloader.tsx
+├── SpecsGrid.tsx
+└── TechDataModal.tsx
+
+data/
+└── bmwData.ts
+
+utils/
+├── audio.ts
+└── utils.ts
+
+package.json
+README.md
+next.config.mjs
+tsconfig.json
 ```
 
 ---
 
-## 📁 Project Architecture
+# 🚦 Experience Flow
 
-```text
-bmw-m4-gt3-evo-showcase/
-├── public/
-│   └── images/
-│       └── bmw-m4-gt3-evo-sequence/   # 192 high-res 360° render frames (1.jpg - 192.jpg)
-├── src/
-│   ├── app/
-│   │   ├── globals.css                # Global styles, scrollbar styling, M brand tokens
-│   │   ├── layout.tsx                 # Root layout & Lenis smooth scroll provider
-│   │   └── page.tsx                   # Master 600vh scroll container & phase orchestrator
-│   ├── components/
-│   │   ├── BMWExperience.tsx          # Phase cards (Legacy, Aero, Cockpit, Powertrain)
-│   │   ├── BMWScrollCanvas.tsx        # High-performance 2D Canvas sequence engine
-│   │   ├── FeaturesSection.tsx        # GT3 EVO evolutionary feature grid
-│   │   ├── Footer.tsx                 # Footer with brand links & inquiry action
-│   │   ├── InquireModal.tsx           # Customer racing quote request modal
-│   │   ├── LenisProvider.tsx          # Smooth scroll context wrapper
-│   │   ├── Navbar.tsx                 # Telemetry header, drive mode switcher & audio toggle
-│   │   ├── Preloader.tsx              # Motorsport RPM tachometer preloader screen
-│   │   ├── SpecsGrid.tsx              # Performance specifications matrix
-│   │   └── TechDataModal.tsx          # Complete FIA GT3 technical spec sheet
-│   ├── data/
-│   │   └── bmwData.ts                 # Structured race data, phases, & engine specs
-│   └── utils/
-│       ├── audio.ts                   # Web Audio API sound synthesizer engine
-│       └── utils.ts                   # Tailwind merge utility helpers
-├── .gitignore
-├── next.config.mjs
-├── package.json
-├── README.md
-└── tsconfig.json
+```
+Preloader
+
+↓
+
+600vh Scroll
+
+↓
+
+BMW Heritage
+
+↓
+
+Aerodynamics
+
+↓
+
+Cockpit
+
+↓
+
+Powertrain
+
+↓
+
+Telemetry HUD
+
+↓
+
+Drive Modes
+
+↓
+
+Technical Data
+
+↓
+
+Inquiry Modal
 ```
 
 ---
 
-## 🚦 Experience Sequence & Flow
+# 🚀 Getting Started
 
-```mermaid
-graph TD
-    A["🏎️ Preloader: Tachometer Sweep"] -->|Ignition Trigger| B["📊 Master 600vh Scroll Container"]
-    B --> C["01 / LEGACY: BMW M Motorsport Heritage"]
-    B --> D["02 / AERODYNAMICS: Redesigned Aero & Splitter"]
-    B --> E["03 / COCKPIT: 70° Carbon GT3 Doors & Safety Cell"]
-    B --> F["04 / POWERTRAIN: 3.0L BMW P58 EVO Engine"]
-    B --> G["⚡ Telemetry HUD & Mode Switcher"]
-    G -->|Qualifying| H["🔴 Max Boost & 540 HP Map"]
-    G -->|Endurance| I["🔵 Balanced Thermal & Aero Map"]
-    G -->|Wet| J["🟡 Traction Control & Soft Throttle"]
-    B --> K["📑 Performance Specs & Interactive Modals"]
-```
+## Step 1
+
+Download the complete project resources
+
+📁
+
+https://drive.google.com/drive/folders/1XdyjcJI9O_c0tN2349R_F05T2Pa0eq5i?usp=drive_link
 
 ---
 
-## 🚀 Getting Started
+## Step 2
 
-### Prerequisites
+Clone Repository
 
-- **Node.js** `v18.x` or higher
-- **npm**, **pnpm**, **yarn**, or **bun**
-
-### 1. Clone the repository
 ```bash
 git clone https://github.com/shajith23/bmw.git
 cd bmw
 ```
 
-### 2. Install dependencies
+---
+
+## Step 3
+
+Install Dependencies
+
 ```bash
 npm install
 ```
 
-### 3. Start development server
+---
+
+## Step 4
+
+Run Development Server
+
 ```bash
 npm run dev
 ```
-Open **[http://localhost:3000](http://localhost:3000)** in your browser to view the application locally.
 
-### 4. Build for production
+Open
+
+```
+http://localhost:3000
+```
+
+---
+
+## Step 5
+
+Production Build
+
 ```bash
 npm run build
+
 npm start
 ```
 
 ---
 
-## 🤝 Credits & Acknowledgments
+# ⚡ Performance
 
-- **BMW M Motorsport** for inspiring the visual identity, telemetry design, and engineering specifications of the M4 GT3 EVO.
-- Built with ❤️ using Next.js, Framer Motion, Lenis, and Tailwind CSS.
+- ⚡ Optimized Canvas Rendering
+- ⚡ High FPS Image Sequence
+- ⚡ Smooth Lenis Scrolling
+- ⚡ Responsive Layout
+- ⚡ Lazy Loaded Images
+- ⚡ Optimized TypeScript
+- ⚡ Mobile Friendly
+- ⚡ Production Ready
+
+---
+
+# 📸 Showcase
+
+### Highlights
+
+- 192 Frame Rotation
+- Motorsport HUD
+- Dynamic Drive Modes
+- BMW M Color Theme
+- Technical Specifications
+- Interactive Audio Engine
+- Canvas Animation
+- Responsive Experience
+
+---
+
+# ❤️ Credits
+
+Inspired by
+
+- BMW M Motorsport
+- BMW Customer Racing
+
+Built With
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lenis
+- Lucide React
+- Web Audio API
+- HTML5 Canvas
+
+---
+
+# 🤝 Support
+
+If this project helped you, consider
+
+⭐ Starring the repository
+
+🍴 Forking the project
+
+📢 Sharing the project
+
+---
+
+# 📜 License
+
+This project is intended for educational and portfolio purposes.
+
+BMW logos, trademarks, and vehicle designs belong to BMW AG.
 
 ---
 
 <div align="center">
 
-**[BMW M4 GT3 EVO Digital Experience](https://bmw-pi-ten.vercel.app/)** • Engineered for Customer Racing Performance.
+# 🏎 BMW M4 GT3 EVO
+
+### Digital Motorsport Experience
+
+🌐 Live Demo
+
+https://bmw-pi-ten.vercel.app/
+
+💻 GitHub
+
+https://github.com/shajith23/bmw
+
+📚 Complete Guide & Assets
+
+https://drive.google.com/drive/folders/1XdyjcJI9O_c0tN2349R_F05T2Pa0eq5i?usp=drive_link
+
+⭐ If you enjoyed this project, don't forget to Star the repository!
+
+Made with ❤️ by **Shajith**
 
 </div>
